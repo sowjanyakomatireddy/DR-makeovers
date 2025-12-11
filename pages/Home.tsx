@@ -139,57 +139,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section className="bg-dark-800 py-20">
-          <div className="text-center mb-16 px-4">
-              <h3 className="text-4xl md:text-6xl font-serif text-gold-500 mb-6 uppercase">Contact Us</h3>
-              <p className="text-white text-lg max-w-2xl mx-auto font-light">
-                  Get in touch with us to schedule your consultation and begin your journey to luxurious, voluminous hair. We are here to help you achieve your dream look.
-              </p>
-          </div>
 
-          <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-12 px-4">
-              {/* Form */}
-              <div className="bg-dark-900 p-8 md:p-12 border border-gray-800">
-                  <form className="space-y-6">
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                          <div>
-                              <label className="block text-xs uppercase text-gray-400 mb-2">First Name *</label>
-                              <input type="text" className="w-full bg-transparent border border-gray-600 p-3 text-white focus:border-gold-500 focus:outline-none transition" />
-                          </div>
-                          <div>
-                              <label className="block text-xs uppercase text-gray-400 mb-2">Last Name *</label>
-                              <input type="text" className="w-full bg-transparent border border-gray-600 p-3 text-white focus:border-gold-500 focus:outline-none transition" />
-                          </div>
-                      </div>
-                      <div>
-                          <label className="block text-xs uppercase text-gray-400 mb-2">Email *</label>
-                          <input type="email" className="w-full bg-transparent border border-gray-600 p-3 text-white focus:border-gold-500 focus:outline-none transition" />
-                      </div>
-                      <div>
-                          <label className="block text-xs uppercase text-gray-400 mb-2">Message</label>
-                          <textarea rows={4} className="w-full bg-transparent border border-gray-600 p-3 text-white focus:border-gold-500 focus:outline-none transition"></textarea>
-                      </div>
-                      <button type="button" className="px-10 py-3 border border-gray-500 text-gray-300 hover:bg-gold-600 hover:text-white hover:border-gold-600 transition duration-300 uppercase text-xs tracking-widest">
-                          Send
-                      </button>
-                  </form>
-              </div>
-
-              {/* Image */}
-              <div className="relative h-[500px] lg:h-auto mt-8 lg:mt-0">
-                  <img 
-                    src="https://res.cloudinary.com/dkivpkaaj/image/upload/v1765169263/beauty-salon_wydqwj.jpg" 
-                    alt="Luxury Salon Interior" 
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute bottom-8 right-8 text-right">
-                      <p className="font-serif text-5xl md:text-6xl text-dark-900/80 italic">All about</p>
-                      <p className="font-serif text-5xl md:text-6xl text-dark-900/80 italic">luxury</p>
-                  </div>
-              </div>
-          </div>
-      </section>
     </div>
   );
 };
