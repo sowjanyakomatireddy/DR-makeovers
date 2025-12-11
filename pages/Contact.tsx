@@ -29,20 +29,6 @@ const Contact: React.FC = () => {
                     Kondapur, Whitefields,<br/>
                     Hyderabad, Telangana 500084
                 </p>
-                <div className="aspect-video w-full bg-gray-800 rounded-lg overflow-hidden border border-gray-700">
-                    {/* Placeholder for Map */}
-                    <div className="w-full h-full flex items-center justify-center text-gray-500 bg-gray-800">
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.123456789!2d78.36!3d17.45!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDI3JzAwLjAiTiA3OMKwMjEnMzYuMCJF!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin" 
-                            width="100%" 
-                            height="100%" 
-                            style={{border:0}} 
-                            loading="lazy"
-                            title="Map"
-                            className="opacity-60 hover:opacity-100 transition duration-500"
-                        ></iframe>
-                    </div>
-                </div>
             </div>
 
             <div>
