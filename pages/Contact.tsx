@@ -51,7 +51,7 @@ const Contact: React.FC = () => {
 
     const phoneForMsg = phone.startsWith('+') ? phone : phoneDigitsFrom(phone);
     const formattedMessage = [
-      'Hello! Thank you for contacting DR Makeovers 😊',
+      'Hello! Thank you for contacting DR Makeovers',
       'Here are the booking details:',
       `• Name: ${name}`,
       `• Phone: ${phoneForMsg}`,
@@ -59,7 +59,7 @@ const Contact: React.FC = () => {
       `• Preferred Date: ${date}${time ? ` ${time}` : ''}`,
       `• Message: ${message}`,
       '',
-      'Please confirm, and we'll get back to you shortly ❤️'
+      'Please confirm, and we will get back to you shortly'
     ].join('\n');
 
     // Replace with your WhatsApp phone number (international format, no +). Current: 919553673711
